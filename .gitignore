@@ -1,0 +1,28 @@
+__pycache__/
+*.pyc
+
+.ipynb_checkpoints/
+
+.env
+
+# Raw genomic data
+data/raw/*
+
+# Processed genomic data
+data/processed/*
+
+# Annotation databases/results
+data/annotations/*
+
+# Trained models
+models/*.pkl
+models/*.joblib
+models/*.pt
+models/*.pth
+
+# Generated results
+results/*
+
+# Temporary files
+*.tmp
+*.log
