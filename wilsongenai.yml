@@ -1,0 +1,21 @@
+name: wilsongenai
+
+dependencies:
+  - scikit-learn
+  - pandas==1.3.5
+  - matplotlib
+  - matplotlib-base
+  - numpy-base
+  - numpy
+  - spyder
+  - python=3.9.7
+  - pip:
+      - xgboost
+      - numpy
+      - sklearn
+      - matplotlib-inline
+      - seaborn
+      - spyder-kernels==2.3.3
+      - graphviz
+      - pytorch-tabnet
+      - torch
